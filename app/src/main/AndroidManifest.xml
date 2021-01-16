@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.battle.lounge">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.battle.lounge.preview.Preview1"></activity>
+        <activity android:name="com.battle.lounge.preview.Preview2"></activity>
+        <activity android:name="com.battle.lounge.preview.Preview3"></activity>
+        <activity android:name="com.battle.lounge.preview.Preview4"></activity>
+        <activity android:name="com.battle.lounge.activity.RateActivity" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel10"
+            android:theme="@style/AppLavel10" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel9"
+            android:theme="@style/AppLavel9" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel8"
+            android:theme="@style/AppLavel8" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel7"
+            android:theme="@style/AppLavel7" />
+        <activity android:name="com.battle.lounge.ads.Ads" />
+        <activity android:name="com.battle.lounge.activity.UserActivity" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel6"
+            android:theme="@style/AppLavel6" />
+        <activity android:name="com.battle.lounge.activity.MenuActivity" />
+        <activity
+            android:name="com.battle.lounge.splash.Splash2"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.battle.lounge.lavel.Lavel1" />
+        <activity android:name="com.battle.lounge.activity.LavelActivity" />
+        <activity
+            android:name="com.battle.lounge.activity.GameOver"
+            android:theme="@style/AppGame" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel2"
+            android:theme="@style/AppLavel" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel3"
+            android:theme="@style/AppLavel3" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel4"
+            android:theme="@style/AppLavel4" />
+        <activity
+            android:name="com.battle.lounge.activity.Finish"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.battle.lounge.lavel.Lavel5"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.battle.lounge.activity.MentsActivity" />
+
+    </application>
+
+
+</manifest>

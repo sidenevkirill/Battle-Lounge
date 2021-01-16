@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Battle lounge</string>
+    <string name="banner_ad_unit_id"></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+
+    <string name="sun">Солнце</string>
+    <string name="grass">Трава</string>
+    <string name="sky">Небо</string>
+    <string name="clock">Часы</string>
+    <string name="hour">Стрелка</string>
+
+    <string name="interstitial_ad_unit_id"></string>
+</resources>

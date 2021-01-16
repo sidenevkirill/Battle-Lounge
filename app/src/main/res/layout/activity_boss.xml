@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context="com.battle.lounge.activity.MenuActivity">
+
+
+    <TextView
+        android:id="@+id/textScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Well Done !"
+        android:textColor="#FFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/bigboss"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/logotip"
+        android:layout_width="300dp"
+        android:layout_height="150dp" />
+
+    <ImageView
+        android:id="@+id/textQuestion"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rfb"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:layout_width="230dp"
+        android:layout_height="80dp"
+        android:text="Ready for Boss" />
+
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textTitle"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:paddingBottom="10dp"
+        android:textSize="28sp"
+        android:background="@drawable/play_btn"
+        android:layout_width="250dp"
+        android:layout_height="75dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textBtn"
+        android:textAllCaps="false"
+        android:onClick="onLavel"
+        android:paddingBottom="10dp"
+        android:textSize="28sp"
+        android:background="@drawable/lavel_btn"
+        android:layout_width="250dp"
+        android:layout_height="75dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:paddingBottom="10dp"
+        android:textSize="28sp"
+        android:onClick="onCMent"
+        android:background="@drawable/arhiw_btn"
+        android:layout_width="250dp"
+        android:layout_height="75dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/exit"
+        android:textAllCaps="false"
+        android:paddingBottom="10dp"
+        android:onClick="onBackPressed"
+        android:textSize="28sp"
+        android:background="@drawable/btn_off"
+        android:layout_width="250dp"
+        android:layout_height="75dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:id="@+id/close"
+        android:textAllCaps="false"
+        android:paddingBottom="10dp"
+        android:onClick="Button"
+        android:textSize="28sp"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+</LinearLayout>
